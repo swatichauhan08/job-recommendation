@@ -64,7 +64,5 @@ def main():
                   #  job_company = i['company']
                     st.markdown(html_template.format(job_category,job_location,job_exp,job_salary,
                                                      unsafe_allow_html = True)
-                with st.beta_expander("Additional Information")
-                                stc.html(resume_html.format(job_resume),scrolling = True)
     else:
         st.subheader("About")
